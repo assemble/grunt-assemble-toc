@@ -1,6 +1,6 @@
 # assemble-contrib-toc [![NPM version](https://badge.fury.io/js/assemble-contrib-toc.png)](http://badge.fury.io/js/assemble-contrib-toc)  [![Build Status](true.png)](true)
 
-> Assemble plugin for creating anchor tags from headings in generated html using Cheerio.js.
+> Assemble plugin for creating a Table of Contents (TOC) in generated html using Cheerio.js.
 
 ## Quick start
 
