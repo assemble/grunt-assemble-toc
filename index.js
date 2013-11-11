@@ -35,20 +35,23 @@ module.exports = function(params, callback) {
 
   // load current page content
   var $ = cheerio.load(params.content);
-  var toc = cheerio.load('<ul class="toc ' + modifier + '"></ul>');
+  var toc = cheerio.load('<ul id="toc-list" class="' + modifier + '"></ul>');
 
   // get all the anchor tags from inside the headers
   var anchors = $('h1 a[name],h2 a[name],h3 a[name],h4 a[name]');
   anchors.map(function(i, e) {
-    var item = [
-      '<li' + li + '>',
-      '   <a href="#' + e.attribs.name + '">' + $(e.parent).text().trim() + '</a>',
-      '</li>'
-    ].join('\n');
-    toc('ul').append(item);
-  });
+    var text  = $(e.parent).text().trim();
+    var link  = e.attribs.name
+    var depth = parseInt(e.parent.name.replace(/h/gi, ''), 10);
 
-  $(id).append(toc.html());
+    var arr = new Array(depth);
+    var level = arr.join('<li><ul>') + '<li><a href="#' + link + '">' + text + '</a></li>' + arr.join('</ul></li>');
+    toc('#toc-list').append(level);
+  });
+  $(id).append(toc.html()
+       .replace(/(<li>\s*<ul>\s*)+/g, '<li><ul>')
+       .replace(/(<\/ul>\s*<\/li>\s*)+/g, '</ul></li>')
+       .replace( /(<\/li>\s*<\/ul>\s*<\/li>\s*<li>\s*<ul>\s*<li>)/g, '</li><li>'));
 
   params.content = $.html();
   callback();
