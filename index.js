@@ -1,5 +1,5 @@
 /**
-* Assemble Plugin: TOC
+* Assemble Contrib Plugin: TOC
 * https://github.com/assemble/assemble-contrib-toc
 *
 * Copyright (c) 2013 Brian Woodward
