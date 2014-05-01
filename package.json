@@ -1,7 +1,7 @@
 {
   "name": "assemble-contrib-toc",
-  "description": "Assemble plugin for creating a Table of Contents (TOC) in generated html using Cheerio.js.",
-  "version": "0.1.2",
+  "description": "Assemble plugin for adding a Table of Contents (TOC) to any HTML page.",
+  "version": "0.1.3",
   "homepage": "http://assemble.io",
   "author": {
     "name": "Brian Woodward",
@@ -32,10 +32,12 @@
   ],
   "keywords": [
     "assemble",
-    "templates",
-    "handlebars",
-    "site generator",
-    "site builder",
-    "grunt"
-  ]
+    "assembleplugin",
+    "plugin",
+    "toc",
+    "table of contents"
+  ],
+  "devDependencies": {
+    "verb": "~0.2.5"
+  }
 }
