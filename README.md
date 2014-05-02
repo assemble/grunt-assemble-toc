@@ -1,17 +1,19 @@
-# assemble-contrib-toc [![NPM version](https://badge.fury.io/js/assemble-contrib-toc.png)](http://badge.fury.io/js/assemble-contrib-toc)
+# assemble-middleware-toc [![NPM version](https://badge.fury.io/js/assemble-middleware-toc.png)](http://badge.fury.io/js/assemble-middleware-toc)
 
 > Assemble plugin for adding a Table of Contents (TOC) to any HTML page.
+
+**Upgrade notice!** v0.2.0 or greater of this plugin depend on Assemble v0.5.0. _This plugin will not work with Assemble v0.4.0!_
 
 ## Install
 Install with [npm](npmjs.org):
 
 ```bash
-npm i assemble-contrib-toc --save
+npm i assemble-middleware-toc --save
 ```
 
 
 ## Contributing
-Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-contrib-toc/issues).
+Find a bug? Have a feature request? Please [create an Issue](https://github.com/assemble/assemble-middleware-toc/issues).
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality,
 and run `docs` in the command line to build the docs with [Verb](https://github.com/assemble/verb).
