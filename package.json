@@ -1,7 +1,7 @@
 {
   "name": "assemble-middleware-toc",
   "description": "Assemble plugin for adding a Table of Contents (TOC) to any HTML page.",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "homepage": "http://assemble.io",
   "author": {
     "name": "Brian Woodward",
