@@ -10,11 +10,6 @@
 * @return {[type]} [description]
 */
 
-
-var options = {
-  stage: 'render:post:page'
-};
-
 var cheerio = require('cheerio');
 
 module.exports = function (assemble) {
