@@ -1,15 +1,9 @@
-/**
-* Assemble Plugin: TOC
-* https://github.com/assemble/assemble-contrib-toc
-*
-* Copyright (c) 2013 Brian Woodward
-* @author: https://github.com/doowb
-*
-* @param {[type]} params [description]
-* @param {Function} callback [description]
-* @return {[type]} [description]
-*/
-
+/*!
+ * grunt-assemble-toc <git://github.com/assemble/grunt-assemble-toc.git>
+ *
+ * Copyright (c) 2013-2015, Brian Woodward.
+ * Licensed under the MIT License.
+ */
 
 var options = {
   stage: 'render:post:page'

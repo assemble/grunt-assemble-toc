@@ -7,7 +7,6 @@
     "name": "Brian Woodward",
     "url": "http://github.com/assemble/"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/assemble/grunt-assemble-toc.git"
@@ -15,6 +14,14 @@
   "bugs": {
     "url": "https://github.com/assemble/grunt-assemble-toc/issues"
   },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/assemble/grunt-assemble-toc/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
   "engines": {
     "node": ">=0.8"
   },
@@ -24,12 +31,6 @@
   "dependencies": {
     "cheerio": "~0.15.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/assemble/grunt-assemble-toc/blob/master/LICENSE-MIT"
-    }
-  ],
   "keywords": [
     "assemble",
     "assemblemiddleware",
