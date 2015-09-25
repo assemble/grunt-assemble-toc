@@ -1,5 +1,5 @@
 {
-  "name": "assemble-middleware-toc",
+  "name": "grunt-assemble-toc",
   "description": "Assemble middleware for adding a Table of Contents (TOC) to any HTML page.",
   "version": "0.2.3",
   "homepage": "http://assemble.io",
@@ -10,10 +10,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/assemble/assemble-middleware-toc.git"
+    "url": "git://github.com/assemble/grunt-assemble-toc.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-middleware-toc/issues"
+    "url": "https://github.com/assemble/grunt-assemble-toc/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -27,7 +27,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/assemble-middleware-toc/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/grunt-assemble-toc/blob/master/LICENSE-MIT"
     }
   ],
   "keywords": [
@@ -38,8 +38,5 @@
     "plugin",
     "table of contents",
     "toc"
-  ],
-  "devDependencies": {
-    "verb": "~0.2.5"
-  }
+  ]
 }
