@@ -1,7 +1,7 @@
 {
   "name": "grunt-assemble-toc",
   "description": "Assemble middleware for adding a Table of Contents (TOC) to any HTML page.",
-  "version": "0.2.3",
+  "version": "0.1.0",
   "homepage": "http://assemble.io",
   "author": "Brian Woodward (http://github.com/assemble)",
   "repository": {
